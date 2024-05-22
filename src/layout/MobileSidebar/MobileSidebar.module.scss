@@ -1,0 +1,41 @@
+.sidebar {
+  width: 100%;
+  padding: 0.75rem var(--kebab-container-padding);
+  background-color: var(--kebab-dark-700);
+  border-top: 1px solid var(--kebab-dark-300);
+}
+
+.list {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  all: unset;
+  color: var(--kebab-light-100);
+}
+
+.content {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s linear;
+  
+  &:hover {
+    color: var(--kebab-primary-100);
+  }
+}
+
+.active {
+  color: var(--kebab-primary-500);
+}
+
+.disabled {
+  pointer-events: none;
+  color: var(--kebab-dark-100);
+}

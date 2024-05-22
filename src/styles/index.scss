@@ -1,0 +1,17 @@
+@forward 'colors';
+@forward 'typography';
+@forward 'boilerplate';
+
+@import './mixins';
+
+.main_container {
+  width: 100%;
+  max-width: 1280px;
+  margin: var(--kebab-header-height) auto 0;
+}
+
+@include mobile {
+  .main_container {
+    margin-bottom: var(--kebab-header-height);
+  }
+}

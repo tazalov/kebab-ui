@@ -1,0 +1,78 @@
+@import '../../styles/mixins';
+
+.sidebar {
+  position: sticky;
+  top: var(--kebab-header-height);
+
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+
+  width: 13.75rem;
+  height: 100dvh;
+  padding: 4.5rem 0 2.25rem var(--kebab-container-padding);
+
+  background-color: var(--kebab-dark-700);
+  border-right: 1px solid var(--kebab-dark-300);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  padding: 0;
+}
+
+.item {
+  all: unset;
+  padding: 0.75rem 2rem 0.75rem 0;
+  transition: color 0.2s linear;
+  
+  &:hover {
+    color: var(--kebab-primary-100);
+  }
+}
+
+.lastGroupItem {
+  margin-bottom: 2.25rem;
+}
+
+.content {
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  max-width: 100%;
+
+  font-weight: var(--font-weight-medium);
+
+  &:focus-visible {
+    border-radius: 2px;
+    outline: 2px solid var(--primary-500);
+  }
+}
+
+.active {
+  font-weight: var(--kebab-font-weight-bold);
+  color: var(--kebab-primary-500);
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: initial;
+  color: var(--kebab-dark-100);
+}
+
+.full {
+  gap: 0.75rem;
+}
+
+.title {
+  user-select: none;
+  font-size: var(--font-size-s);
+  line-height: var(--line-height-m);
+}
+

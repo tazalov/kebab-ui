@@ -1,0 +1,29 @@
+:root {
+  /* globals */
+  --kebab-font-family: system-ui, sans-serif;
+
+  /* font-sizes */
+  --kebab-font-size-xs: 12px;
+  --kebab-font-size-s: 14px;
+  --kebab-font-size-m: 16px;
+  --kebab-font-size-l: 18px;
+  --kebab-font-size-xl: 20px;
+  --kebab-font-size-xxl: 22px;
+
+  /* line-heights */
+  --kebab-line-height-s: 16px;
+  --kebab-line-height-m: 24px;
+  --kebab-line-height-l: 36px;
+
+  /* font-weights */
+  --kebab-font-weight-regular: 400;
+  --kebab-font-weight-medium: 500;
+  --kebab-font-weight-semibold: 600;
+  --kebab-font-weight-bold: 700;
+  
+  // header
+  --kebab-header-height: 60px;
+  
+  // padding
+  --kebab-container-padding: 3rem;
+}

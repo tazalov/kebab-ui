@@ -1,0 +1,29 @@
+.root {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid var(--kebab-dark-500);
+}
+
+.row {
+  &:not(:last-child) {
+    border-bottom: 1px solid var(--kebab-dark-500);
+  }
+}
+
+.title {
+  padding: 0.75rem 1.5rem;
+
+  font-size: var(--kebab-font-size-m);
+  font-weight: var(--kebab-font-weight-semibold);
+  line-height: var(--kebab-line-height-m);
+  text-align: left;
+
+  background-color: var(--kebab-dark-500);
+}
+
+.cell {
+  padding: 0.75rem 1.5rem;
+  font-size: var(--kebab-font-size-s);
+  font-weight: var(--kebab-font-weight-regular);
+  line-height: var(--kebab-line-height-m);
+}
