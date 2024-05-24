@@ -1,5 +1,4 @@
 import { Ref, SVGProps, forwardRef, memo } from 'react'
-import * as React from 'react'
 
 const SvgComponent = (
   { height = 24, width = 24, ...rest }: SVGProps<SVGSVGElement>,
