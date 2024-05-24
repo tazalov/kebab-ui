@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { Arrow, Calendar, Eye, EyeOff, Search } from '../../assets/icons'
+import { Arrow, Block, Eye, EyeOff, Search } from '../../assets/icons'
 import { MobileSidebar, MobileSidebarEl } from './MobileSidebar'
 
 const meta: Meta<typeof MobileSidebar.Root> = {
@@ -23,7 +23,7 @@ export default meta
 type Story = StoryObj<typeof meta>
 
 const items: MobileSidebarEl[] = [
-  { icon: <Calendar /> },
+  { icon: <Block /> },
   { icon: <Eye /> },
   { icon: <EyeOff /> },
   { icon: <Search /> },

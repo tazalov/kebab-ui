@@ -4,7 +4,7 @@ import clsx from 'clsx'
 
 import s from './CustomInput.module.scss'
 
-import { Calendar } from '../../../assets/icons'
+import { CalendarOutline } from '../../../assets/icons'
 
 type Props = {
   error?: ReactNode
@@ -36,7 +36,7 @@ export const CustomInput = forwardRef<HTMLInputElement, Props>(
             autoComplete="off"
             readOnly
           />
-          <Calendar className={s.calendar} />
+          <CalendarOutline className={s.calendar} />
         </div>
         {error && <span className={s.errorText}>{error}</span>}
       </div>

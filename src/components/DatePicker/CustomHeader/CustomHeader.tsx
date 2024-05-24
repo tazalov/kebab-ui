@@ -5,7 +5,7 @@ import { getMonth, getYear } from 'date-fns'
 
 import s from './CustomHeader.module.scss'
 
-import { ChevronLeft, ChevronRight } from '../../../assets/icons'
+import { ArrowLeft, ArrowRight } from '../../../assets/icons'
 import { Button } from '../../../components/Button'
 import { Options, Select } from '../../../components/Select'
 
@@ -58,14 +58,14 @@ export const CustomHeader = (props: Props) => {
         <Button
           className={s.button}
           onClick={decreaseMonth}
-          startIcon={<ChevronLeft />}
+          startIcon={<ArrowLeft />}
           type="button"
           variant="text"
         />
         <Button
           className={s.button}
           onClick={increaseMonth}
-          startIcon={<ChevronRight />}
+          startIcon={<ArrowRight />}
           type="button"
           variant="text"
         />
