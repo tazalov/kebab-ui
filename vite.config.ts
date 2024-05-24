@@ -12,6 +12,7 @@ export default defineConfig({
         resolve(__dirname, 'src/index.ts'),
         resolve(__dirname, 'src/components/index.ts'),
         resolve(__dirname, 'src/layout/index.ts'),
+        resolve(__dirname, 'src/assets/icons/index.ts'),
       ],
       fileName: 'index',
       formats: ['es'],
