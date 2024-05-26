@@ -1,7 +1,7 @@
 {
   "name": "@tazalov/kebab-ui",
   "private": false,
-  "version": "1.1.1",
+  "version": "1.1.2",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -15,11 +15,11 @@
     "./dist/style.css": "./dist/style.css",
     "./components": {
       "types": "./dist/components/index.d.ts",
-      "default": "./dist/index2.js"
+      "default": "./dist/index3.js"
     },
     "./layout": {
       "types": "./dist/layout/index.d.ts",
-      "default": "./dist/index3.js"
+      "default": "./dist/index2.js"
     },
     "./icons": {
       "types": "./dist/assets/icons/index.d.ts",
