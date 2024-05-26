@@ -13,9 +13,9 @@ const SvgComponent = (
     xmlns="http://www.w3.org/2000/svg"
     {...rest}
   >
-    <rect fill="url(#pattern0)" height="24" width="24" />
+    <rect fill="url(#ru_pattern)" height="24" width="24" />
     <defs>
-      <pattern height="1" id="pattern0" patternContentUnits="objectBoundingBox" width="1">
+      <pattern height="1" id="ru_pattern" patternContentUnits="objectBoundingBox" width="1">
         <use transform="scale(0.0138889)" xlinkHref="#ru" />
       </pattern>
       <image
