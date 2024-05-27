@@ -34,7 +34,7 @@ const meta: Meta<typeof TextField> = {
     },
   },
   tags: ['autodocs'],
-  title: 'TextField',
+  title: 'components/TextField',
 }
 
 export default meta

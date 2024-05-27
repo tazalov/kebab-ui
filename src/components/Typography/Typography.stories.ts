@@ -52,7 +52,7 @@ const meta: Meta<typeof Typography> = {
     },
   },
   tags: ['autodocs'],
-  title: 'Typography',
+  title: 'components/Typography',
 }
 
 export default meta

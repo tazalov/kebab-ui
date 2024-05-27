@@ -32,7 +32,7 @@ const meta: Meta<typeof Skeleton> = {
     layout: 'fullscreen',
   },
   tags: ['autodocs'],
-  title: 'Skeleton',
+  title: 'components/Skeleton',
 }
 
 export default meta

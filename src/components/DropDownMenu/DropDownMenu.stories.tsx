@@ -40,7 +40,7 @@ const meta: Meta<typeof Dropdown.Menu> = {
     layout: 'centered',
   },
   tags: ['autodocs'],
-  title: 'DropDownMenu',
+  title: 'components/DropDownMenu',
 }
 
 export default meta

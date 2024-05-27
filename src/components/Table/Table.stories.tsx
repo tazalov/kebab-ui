@@ -16,7 +16,7 @@ const meta: Meta<typeof Table.Root> = {
     },
   },
   tags: ['autodocs'],
-  title: 'Table',
+  title: 'components/Table',
 }
 
 export default meta

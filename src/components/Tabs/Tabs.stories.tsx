@@ -31,7 +31,7 @@ const meta: Meta<typeof Tabs.Root> = {
     layout: 'centered',
   },
   tags: ['autodocs'],
-  title: 'Tabs',
+  title: 'components/Tabs',
 }
 
 export default meta

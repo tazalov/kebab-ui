@@ -1,7 +1,22 @@
 import type { Preview } from '@storybook/react'
 import '../src/styles/index.scss'
+import { themes } from '@storybook/theming'
 const preview: Preview = {
   parameters: {
+    options: {
+      storySort: {
+        order: [
+          'getting-started',
+          ['installation', 'usage', 'styling'],
+          'components',
+          'layout',
+          'icons',
+        ],
+      },
+    },
+    docs: {
+      theme: themes.dark,
+    },
     actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
       matchers: {
@@ -15,10 +30,6 @@ const preview: Preview = {
         {
           name: 'Dark',
           value: '#000',
-        },
-        {
-          name: 'Light',
-          value: '#f4f4f4',
         },
       ],
     },
