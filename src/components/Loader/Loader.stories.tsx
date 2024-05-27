@@ -31,7 +31,7 @@ const meta: Meta<typeof Loader> = {
     layout: 'centered',
   },
   tags: ['autodocs'],
-  title: 'Loader',
+  title: 'components/Loader',
 }
 
 export default meta

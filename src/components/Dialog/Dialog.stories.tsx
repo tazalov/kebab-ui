@@ -32,7 +32,7 @@ const meta: Meta<typeof Dialog> = {
     layout: 'centered',
   },
   tags: ['autodocs'],
-  title: 'Dialog',
+  title: 'components/Dialog',
 }
 
 export default meta

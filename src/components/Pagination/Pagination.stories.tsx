@@ -42,7 +42,7 @@ const meta: Meta<typeof Pagination> = {
     layout: 'centered',
   },
   tags: ['autodocs'],
-  title: 'Pagination',
+  title: 'components/Pagination',
 }
 
 export default meta

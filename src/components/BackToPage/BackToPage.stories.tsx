@@ -27,7 +27,7 @@ const meta: Meta<typeof BackToPage> = {
     layout: 'centered',
   },
   tags: ['autodocs'],
-  title: 'BackToPage',
+  title: 'components/BackToPage',
 }
 
 export default meta

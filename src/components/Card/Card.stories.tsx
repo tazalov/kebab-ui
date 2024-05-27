@@ -31,7 +31,7 @@ const meta: Meta<typeof Card> = {
     layout: 'centered',
   },
   tags: ['autodocs'],
-  title: 'Card',
+  title: 'components/Card',
 }
 
 export default meta
