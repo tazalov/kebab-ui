@@ -13,7 +13,7 @@ const SvgComponent = (
     xmlns="http://www.w3.org/2000/svg"
     {...rest}
   >
-    <path d="M5 10L0 5L5 0L6.062 1.062L2.125 5L6.062 8.938L5 10Z" fill="white" />
+    <path d="M5 10L0 5L5 0L6.062 1.062L2.125 5L6.062 8.938L5 10Z" fill="currentColor" />
   </svg>
 )
 const ForwardRef = forwardRef(SvgComponent)

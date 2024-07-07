@@ -15,7 +15,7 @@ const SvgComponent = (
   >
     <path
       d="M1.99999 10L0.937988 8.938L4.87499 5L0.937988 1.062L1.99999 0L6.99999 5L1.99999 10Z"
-      fill="white"
+      fill="currentColor"
     />
   </svg>
 )
