@@ -7,10 +7,11 @@ const preview: Preview = {
       storySort: {
         order: [
           'getting-started',
-          ['installation', 'usage', 'styling'],
+          ['Installation', 'Usage', 'Styling'],
+          'design-system',
+          ['Colors', 'Iconography'],
           'components',
           'layout',
-          'icons',
         ],
       },
     },
